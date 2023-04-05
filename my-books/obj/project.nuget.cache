@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FLzGlFaEdZ85AOt6ABsaf/Fy8+3vQ2VInzXF2plipCb91Moc8ReUJIhpRyzLK0fEPqihenmErRfdD279AHTwHQ==",
+  "dgSpecHash": "TB4w9wZUgz/lRqNa65aYxSXw31UlCHxlkvdIuhjgGggwMZRRDCw/D/GoSeVD8KG4kdZurEIksTjjEGGM3qk9PQ==",
   "success": true,
   "projectFilePath": "C:\\Code\\MyBooks\\my-books\\my-books\\my-books.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\ts0322\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ts0322\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ts0322\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\ts0322\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ts0322\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ts0322\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ts0322\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -1,6 +1,7 @@
 using my_books.Data;
 using Microsoft.EntityFrameworkCore;
 using my_books.Data.Services;
+using my_books.Exceptions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Configure the services.
 builder.Services.AddTransient<BooksService>();
+builder.Services.AddTransient<AuthorsService>();
+builder.Services.AddTransient<PublishersService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,8 +34,12 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Exception Handling
+app.ConfigureBuildInExceptionHandler();
+//app.ConfigureCustomExceptionHandler();
+
 app.MapControllers();
 
-AppDbInitializer.Seed(app);
+//AppDbInitializer.Seed(app);
 
 app.Run();
